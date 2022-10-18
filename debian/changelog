@@ -1,0 +1,63 @@
+ruby-erubis (2.7.0-3.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 11:44:37 +0100
+
+ruby-erubis (2.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Drop transtional packages: erubis, liberubis-ruby, liberubis-ruby1.8,
+    liberubis-ruby1.9.1, erubis-doc
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sat, 29 Mar 2014 13:57:53 -0300
+
+ruby-erubis (2.7.0-2) unstable; urgency=low
+
+  * Bump build dependency on gem2deb to >= 0.3.0~
+  * Skip broken test suite. Its results were being ignored anyway.
+
+ -- Antonio Terceiro <terceiro@debian.org>  Mon, 25 Jun 2012 17:54:03 -0300
+
+ruby-erubis (2.7.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #657127)
+  * Switch to the gem2deb helper and follow new policy (Closes: #657141)
+    - Rename source package to ruby-erubis
+    - Rename main binary package to ruby-erubis and make the other one
+      transitional
+    - Put under the Debian Ruby Extras team maintenance
+    - Use ruby dh sequence
+  * Switch to dpkg-source 3.0 (quilt) format
+  * debian/copyright: Use DEP5 specification
+  * debian/watch: Use pkg-ruby-extras helper
+
+ -- Laurent Bigonville <bigon@debian.org>  Thu, 26 Jan 2012 15:15:58 +0100
+
+erubis (2.6.2-3.1) unstable; urgency=low
+
+  * Non-maintainer upload
+  * Drop 1.9 package, add 1.9.1 package.  Closes: #569846, #577876
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Wed, 09 Jun 2010 21:19:04 +0200
+
+erubis (2.6.2-3) unstable; urgency=low
+
+  * Bump standards version to 3.8.1
+  * Update debhelper compatibility to 7
+  * Correct GPL links to GPL-2
+
+ -- Bryan McLellan <btm@loftninjas.org>  Wed, 08 Apr 2009 11:11:15 -0700
+
+erubis (2.6.2-2) unstable; urgency=low
+
+  * Add additional notices to copyright file
+
+ -- Bryan McLellan <btm@loftninjas.org>  Wed, 18 Mar 2009 14:36:38 -0700
+
+erubis (2.6.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #509254)
+
+ -- Bryan McLellan <btm@loftninjas.org>  Sat, 20 Dec 2008 01:43:52 -0800
